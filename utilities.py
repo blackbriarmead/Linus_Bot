@@ -17,7 +17,7 @@ key = sensitiveInfo["key"]
 clientSecret = sensitiveInfo["clientSecret"]
 uberduckAuth = sensitiveInfo["uberduckAuth"]
 
-con = psycopg2.connect("dbname=linus_bot user=postgres password=587786")
+con = psycopg2.connect("dbname=linus_bot user=postgres password={}".format(dbPass))
 
 cur = con.cursor()
 
