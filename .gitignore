@@ -4,3 +4,6 @@ Linus Bot.pyproj
 Linus Bot.sln
 ffmpeg.exe
 sound_files/
+.vs/
+__pycache__
+*.db
